@@ -16,8 +16,7 @@ class CuboidMaker{
 
 class CubeMaker extends CuboidMaker {
     constructor(length, width, height){
-        super(length, width, height){
-        }
+        super(length, width, height)
     }
     volume(){
         return this.length * this.width * this.height
